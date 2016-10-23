@@ -115,16 +115,16 @@ You should follow the steps below.
 4. Push the branch: `git push origin add-new-feature`
 4. [Send us a pull request](https://help.github.com/articles/using-pull-requests/)
 
-We use [Appraisal](https://github.com/thoughtbot/appraisal) to test with different versions of Rails.  
+We use [Appraisal](https://github.com/thoughtbot/appraisal) to test with different versions of Sprockets.
 
 ```shell
 bundle install
 appraisal install
 
-# Run rspec with a specific version of Rails
-appraisal rails42x rspec
+# Run rspec with a specific version of Sprockets
+appraisal sprockets4 rspec
 
-# Run rspec with all versions of Rails
+# Run rspec with all versions of Sprockets
 appraisal rspec
 ```
 
